@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.bird.adventure.fly.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.bird.adventure.fly.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/fragmentRecords"
+        android:name="com.bird.adventure.fly.FragmentRecords"
+        android:label="FragmentRecords" />
+    <fragment
+        android:id="@+id/fragmentBirds"
+        android:name="com.bird.adventure.fly.FragmentBirds"
+        android:label="FragmentBirds" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.bird.adventure.fly.GameFragment"
+        android:label="GameFragment" />
+</navigation>

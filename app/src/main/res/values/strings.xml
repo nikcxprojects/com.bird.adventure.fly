@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Aviator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="splash_name" translatable="false">Load</string>
+    <string name="No_internet" translatable="false">No internet connection!</string>
+    <string name="No_internet_info" translatable="false">Try doing the following:</string>
+    <string name="No_internet_info_1" translatable="false">turn off airplane mode</string>
+    <string name="No_internet_info_2" translatable="false">check network signal strength</string>
+    <string name="No_internet_info_3" translatable="false">turn on Wi-fi or mobile Internet</string>
+</resources>
